@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router";
 import Home from "../pages/Home/Home";
-import About from "../pages/About/about";
+import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import Store from "../pages/Store/Store";
 import ProductDetails from "../pages/ProductDetails/ProductDetails";
@@ -19,43 +19,43 @@ const router = createBrowserRouter([
     element: <Home></Home>,
   },
   {
-    path: "/about",
+    path: "/About",
     element: <About></About>,
   },
   {
-    path: "/contact",
+    path: "/Contact",
     element: <Contact></Contact>,
   },
   {
-    path: "/store",
+    path: "/Store",
     element: <Store></Store>,
   },
   {
-    path: "/product-details",
+    path: "/ProductDetails",
     element: <ProductDetails></ProductDetails>,
   },
   {
-    path: "/login",
+    path: "/Login",
     element: <Login></Login>,
   },
   {
-    path: "/registration",
+    path: "/Registration",
     element: <Registration></Registration>,
   },
   {
-    path: "/blog",
+    path: "/Blog",
     element: <Blog></Blog>,
   },
   {
-    path: "/blog-details",
+    path: "/BlogDetails",
     element: <BlogDetails></BlogDetails>,
   },
   {
-    path: "/product-author",
+    path: "/ProductAuthor",
     element: <ProductAuthor></ProductAuthor>,
   },
   {
-    path: "/faq",
+    path: "/Faq",
     element: <Faq></Faq>,
   },
   {
