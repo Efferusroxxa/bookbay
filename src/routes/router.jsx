@@ -6,12 +6,11 @@ import Store from "../pages/Store/Store";
 import ProductDetails from "../pages/ProductDetails/ProductDetails";
 import Login from "../pages/Login/Login";
 import Registration from "../pages/Registration/Registration";
-import Blog from "../pages/Blog/blog";
+import Blog from "../pages/Blog/Blog";
 import BlogDetails from "../pages/BlogDetails/BlogDetails";
 import ProductAuthor from "../pages/ProductAuthor/ProductAuthor";
 import Faq from "../pages/Faq/Faq";
 import NotFound from "../pages/NotFound/NotFound";
-
 
 const router = createBrowserRouter([
   {
@@ -19,43 +18,43 @@ const router = createBrowserRouter([
     element: <Home></Home>,
   },
   {
-    path: "/About",
+    path: "/about",
     element: <About></About>,
   },
   {
-    path: "/Contact",
+    path: "/contact",
     element: <Contact></Contact>,
   },
   {
-    path: "/Store",
+    path: "/store",
     element: <Store></Store>,
   },
   {
-    path: "/ProductDetails",
+    path: "/product-details",
     element: <ProductDetails></ProductDetails>,
   },
   {
-    path: "/Login",
+    path: "/login",
     element: <Login></Login>,
   },
   {
-    path: "/Registration",
+    path: "/registration",
     element: <Registration></Registration>,
   },
   {
-    path: "/Blog",
+    path: "/blog",
     element: <Blog></Blog>,
   },
   {
-    path: "/BlogDetails",
+    path: "/blog-details",
     element: <BlogDetails></BlogDetails>,
   },
   {
-    path: "/ProductAuthor",
+    path: "/product-author",
     element: <ProductAuthor></ProductAuthor>,
   },
   {
-    path: "/Faq",
+    path: "/faq",
     element: <Faq></Faq>,
   },
   {
