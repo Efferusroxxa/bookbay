@@ -7,7 +7,7 @@ import Iconify from "../Iconify/Iconify";
 const Top = () => {
   return (
     <section className="border-t border-gray-200 pt-5">
-      <div className="container mx-auto py-3 grid grid-4">
+      <div className="container mx-auto py-3 grid grid-cols-4">
         <div>
           <h3 className="font-bold text-secondary pb-8">NEED HELP?</h3>
           <div className="flex flex-col gap-1 text-black opacity-55">
