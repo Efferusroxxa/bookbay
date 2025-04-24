@@ -5,4 +5,4 @@ const Iconify = ({ icon, className = "" }) => {
   return <Icon icon={icon} className={className}></Icon>;
 };
 
-export default Iconify;
+export default Iconify; 
