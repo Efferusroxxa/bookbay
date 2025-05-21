@@ -1,12 +1,15 @@
 import React from "react";
-import Header from "../../Components/Header/Header";
+import Header from "../../components/Header/Header";
+import Facility from "../../components/Facility/Facility";
+import ReviewSection from "../../section/ReviewSection";
 
 const Home = () => {
-    return (
-        <>
-            <h2>This Is Home Page</h2>
-        </>
-    );
+  return (
+    <>
+      <ReviewSection></ReviewSection>
+      <Facility></Facility>
+    </>
+  );
 };
 
 export default Home;

@@ -27,3 +27,5 @@
 - Typography
 - Icon
 - Header
+
+iconamoon:arrow-right-2-thin
