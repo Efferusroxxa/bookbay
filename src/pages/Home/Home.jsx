@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../../components/Header/Header";
-import Facility from "../../components/Facility/Facility";
+import Header from "../../Components/Header/Header";
+import Facility from "../../Components/Facility/Facility";
 import ReviewSection from "../../section/ReviewSection";
 
 const Home = () => {

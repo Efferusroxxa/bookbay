@@ -1,7 +1,7 @@
 import React from "react";
-import Typography from "../components/Typography/Typography";
-import Iconify from "../components/Iconify/Iconify";
-import RevviewItem from "../components/ReviewItem/RevviewItem";
+import Typography from "../Components/Typography/Typography";
+import Iconify from "../Components/Iconify/Iconify";
+import RevviewItem from "../Components/ReviewItem/RevviewItem";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
